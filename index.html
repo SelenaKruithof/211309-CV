@@ -13,7 +13,11 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Timmana&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Timmana&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Timmana&display=swap');
+      </style>
     <title>Selena Kruithofs' Resumé</title>
   </head>
   <!-- End of the head -->
@@ -43,7 +47,7 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 square my-3" src="images/hoho/IMG_2622.jpg" alt="Portrait of Selena Kruithof" width="160">
+          <img class="w-100 rounded-circle my-3" src="images/hoho/IMG_2622.jpg" alt="Portrait of Selena Kruithof" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
@@ -71,6 +75,24 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
+            <style>
+                  h1 {
+                 font-family:Libre Bodoni
+                  }
+                  h2 {
+                 font-family:Libre Bodoni
+                  }
+                  h4 {
+                 font-family:Libre Bodoni
+                  } 
+                  h5 {
+                 font-family:Josefin Slab
+                  } 
+                  li {
+                 font-family: 'Times New Roman', Times, serif
+                  }
+                  
+            </style>
             <h2>Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
@@ -82,30 +104,32 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/Kinepolis.svg.png" alt="Company logo" width="80" style="margin-bottom: 100px;">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/o3-1299-thumb-havana_logo_secundair_groen.jpg" alt="Company logo" width="80" style="margin-bottom: 100px;">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/Albert_Heijn_Logo.svg" alt="Company logo" width="80" style="margin-bottom: 100px;">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Albert Heijn</h4>
-                  <h5>2020&ndash;2021</h5>
-                  <!-- Use the list below to talk about your achievements -->
-                  <ul class="biography-details list-unstyled">
-                    <li>Customer Experience & Service Specialist </li>
-                    <li>Managed customer interactions</li>
-                    <li>Communication skills in a fast-paced retail environment</li>
-                    <h4>Havana</h4>
-                  <h5>2021&ndash;2022</h5>
-                  <!-- Use the list below to talk about your achievements -->
-                  <ul class="biography-details list-unstyled">
-                    <li>Hospitality & Guest Experience Associate </li>
-                    <li>High-quality service in a dynamic hospitality environment</li>
-                    <li>Strengthened multitasking and interpersonal skills while working under pressure</li>
-                    <h4>Kinepolis</h4>
+                  <h4 style="margin-top: 20px; margin-bottom: 10px;">Kinepolis</h4>
                   <h5>2022&ndash;2023</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
-                    <li>Event & Hospitality Crew Member </li>
-                    <li>Assisted in cinema operations, including ticket sales, event support, and customer service</li>
-                    <li>Entertainment services and high-volume guest management</li>
+                      <li>Event & Hospitality Crew Member</li>
+                      <li>Assisted in cinema operations, including ticket sales, event support, and customer service</li>
+                      <li>Entertainment services and high-volume guest management</li>
+                  <h4 style="margin-top: 30px; margin-bottom: 10px;">Havana</h4>
+                  <h5>2021&ndash;2022</h5>
+                      <!-- Use the list below to talk about your achievements -->
+                  <ul class="biography-details list-unstyled">
+                        <li>Hospitality & Guest Experience Associate</li>
+                        <li>High-quality service in a dynamic hospitality environment</li>
+                        <li>Strengthened multitasking and interpersonal skills while working under pressure</li>
+                  <h4 style="margin-top: 30px; margin-bottom: 10px;">Albert Heijn</h4>
+                  <h5>2020&ndash;2021</h5>
+                    <!-- Use the list below to talk about your achievements -->
+                  <ul class="biography-details list-unstyled">
+                        <li>Customer Experience & Service Specialist</li>
+                        <li>Managed customer interactions</li>
+                        <li>Communication skills in a fast-paced retail environment</li>
                   </ul>
                 </div>
               </li>
@@ -136,13 +160,11 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+                  <h4 style="margin-top: 30px; margin-bottom: 10px;">BA in Creative Business, Breda University of Applied Sciences</h4>
                   <h5>2023&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
-                    <li>Member of the student participation council</li>
-                    <li>Minor in resilient entrepreneurship</li>
-                    <li>Exchange with Bournemouth University</li>
+                    <li>Design Experience Department</li>
                   </ul>
                 </div>
               </li>
@@ -150,13 +172,13 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/RL-VVC-Logo_huisstijl2.jpg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, Culture and Science Studies</h4>
+                  <h4>Culture and Science Studies, Rijswjks Lyceum</h4>
                   <h5>2015&nbsp;&ndash;&nbsp;2021</h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>HAVO Diploma</li>
                   </ul>
                 </div>
               </li>
@@ -197,15 +219,15 @@
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://github.com/SelenaKruithof" target="_blank">
                   <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
                   GitHub Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
+                <a class="d-flex align-items-center" href="https://www.instagram.com/selenakruithof/" target="_blank">
+                  <img class="contact-icon" src="images/icons/instagram.svg" alt="Mobile Phone">
+                  Instagram @SelenaKruithof
                 </a>
               </li>
             </ul>
@@ -221,7 +243,7 @@
                 <h5 class="language-name w-50">Dutch</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress position-absolute h-100 w-100 language-bar"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
@@ -229,7 +251,7 @@
                 <h5 class="language-name w-50">Spanish</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress position-absolute h-100 w-100 language-bar"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
@@ -237,7 +259,7 @@
                 <h5 class="language-name w-50">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <div class="language-progress position-absolute h-100 w-75 language-bar"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
@@ -249,9 +271,9 @@
           <section class="my-3 aside-section">
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item">Adobe Illustrator</li>
+              <li class="skill-item">Content Creation</li>
+              <li class="skill-item">Design Thinking</li>
             </ul>
           </section>
 
@@ -260,8 +282,9 @@
           <section class="my-3 aside-section">
             <h2>Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">Gaming</li>
+              <li class="skill-item">Socializing</li>
+              <li class="skill-item">Digital Drawing</li>
             </ul>
           </section>
 

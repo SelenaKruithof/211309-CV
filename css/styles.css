@@ -4,17 +4,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Styles for the body */
-
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
+	color: #1b274e;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+
+.header-titles {
+	font-family: "Josefin Slab", serif;
+}
+
+.job-titles {
+    font-family: "Libre Bodoni", serif; 
+}
+
+.job-discriptions {
+    font-family: "Cousine", monospace;
+
+}
+
 .resume-header {
-    background-color: #51f6c7;
+    background-color: #AFDCEB;
 }
 
 .resume-main {
@@ -22,9 +35,12 @@ body {
 }
 
 .resume-aside {
-	background-color: #d5f8e5;
+	background-color: #F0F8FF;
 }
 
+.language-bar {
+    background-color: #CAE9F5;
+}
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
@@ -36,7 +52,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #297eb6;
 }
 
 .biography-details li, .skill-list li {
