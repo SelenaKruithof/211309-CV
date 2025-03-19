@@ -10,6 +10,25 @@ body {
 	background-color: #f8f8fc;
 }
 
+h1 {
+	font-family:Libre Bodoni
+}
+
+h2 {
+	font-family:Libre Bodoni
+}
+
+h4 {
+	font-family:Libre Bodoni
+ } 
+
+h5 {
+	font-family:Josefin Slab
+} 
+	 li {
+	font-family: 'Times New Roman', Times, serif
+}
+
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 
